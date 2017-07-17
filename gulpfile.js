@@ -5,8 +5,8 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var package = require('./package.json');
 
-var sassSources = 'components/sass';
-var scriptSources = 'components/scripts';
+var sassSources = 'src/sass';
+var scriptSources = 'src/scripts';
 
 var cssDestination = 'dist/css';
 var jsDestination = 'dist/js';
