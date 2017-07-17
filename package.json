@@ -1,0 +1,26 @@
+{
+  "name": "prototype.alanho.work",
+  "version": "1.0.0",
+  "description": "Working test react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Techpioneer@bitbucket.org/alanhoUX/prototype.alanho.work.git"
+  },
+  "author": "Alan Ho",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alanhoUX/prototype.alanho.work#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
