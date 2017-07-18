@@ -25,6 +25,21 @@ module.exports = {
                             "es2015"]
                     }
                 }
+            },
+            {
+                test: /\.json$/,
+                exclude: /(node_modules)/,
+                use: ['json-loader']
+            }, {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=2000000'
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader', 'postcss-loader']
+            }, {
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     }
