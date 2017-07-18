@@ -3,12 +3,12 @@ var webpack = require("webpack");
 module.exports = {
     entry: "./src/scripts/index.js",
     output: {
-        filename: "bundle.js",
         path: __dirname + "/dist/js",
-        publicPath: __dirname + "/dist/js"
+        filename: "bundle.js",
+        publicPath: "js"
     }, devServer: {
         inline: true,
-        contentBase: __dirname + "/dist/",
+        contentBase: "./dist/",
         port: 3000
     },
     module: {
