@@ -17,7 +17,8 @@
   "homepage": "https://bitbucket.org/alanhoUX/prototype.alanho.work#readme",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
