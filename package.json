@@ -4,10 +4,11 @@
   "description": "Working test react app",
   "main": "src/scripts/main.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
-    "dev": "npm run build && ./node_modules/.bin/webpack-dev-server",
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "build": "./node_modules/.bin/webpack",
+    "proxy": "./node_modules/.bin/webpack-dev-server",
+    "dev": "npm run build && npm start"
   },
   "repository": {
     "type": "git",
