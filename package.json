@@ -5,8 +5,9 @@
   "main": "src/scripts/main.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server",
-    "start": "npm run build && npm run dev"
+    "dev": "npm run build && ./node_modules/.bin/webpack-dev-server",
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,15 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/alanhoUX/prototype.alanho.work#readme",
   "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5"
   },
   "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
     "autoprefixer": "^7.1.2",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
