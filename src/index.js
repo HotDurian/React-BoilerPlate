@@ -1,13 +1,12 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { SkiDayCount } from './components/SkiDayCount'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-window.React = React
+ReactDOM.render(<App />, document.getElementById('root'));
 
-render(
-	<SkiDayCount total={50}
-				 powder={20}
-				 backcountry={10}
-				 goal={100}/>,
-    document.getElementById('react-container')
-)
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
